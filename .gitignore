@@ -36,3 +36,8 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+
+packages/database/src/generated
+packages/database/dist
+pnpm --filter @repo/contracts build
