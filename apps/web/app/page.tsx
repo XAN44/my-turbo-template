@@ -18,6 +18,7 @@ export default async function Home() {
             <li key={u.id}>
               {u.name ?? "Anonymous"} ({u.email})
               {u.password && <span>{u.password}</span>}
+              {u.phone && <span>{u.phone}</span>}
             </li>
           ))}
         </ul>
