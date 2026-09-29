@@ -41,3 +41,5 @@ yarn-error.log*
 packages/database/src/generated
 packages/database/dist
 pnpm --filter @repo/contracts build
+
+*.tsbuildinfo
