@@ -43,3 +43,5 @@ packages/database/dist
 pnpm --filter @repo/contracts build
 
 *.tsbuildinfo
+
+!.env.example
